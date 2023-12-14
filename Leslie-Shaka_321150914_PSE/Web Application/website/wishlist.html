@@ -1,0 +1,101 @@
+<!-- Wishlist -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wishlist</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .property-card {
+      margin-bottom: 20px;
+    }
+    .property-card img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<!-- Navigation Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">HomeBnB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Wishlist<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messaging.html">Messaging</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="booking_dashboard.html">Booking Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Wishlist</h2>
+  
+  <!-- Wishlist items -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card property-card">
+        <img src="images/img2.jpg" class="card-img-top" alt="Property 1">
+        <div class="card-body">
+          <h5 class="card-title">Cozy Mountain Cabin</h5>
+          <p class="card-text">Escape to this cozy cabin nestled in the mountains. Enjoy breathtaking views and serene surroundings.
+
+          </p>
+          <a href="#" class="btn btn-primary">View Details</a>
+          <button class="btn btn-danger float-right">Remove</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="card property-card">
+        <img src="images/img3.jpg" class="card-img-top" alt="Property 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury Beachfront Villa</h5>
+          <p class="card-text">Experience luxury in this spacious beachfront villa. Stunning ocean views, private pool, and modern amenities.</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+          <button class="btn btn-danger float-right">Remove</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="card property-card">
+        <img src="images/img1.jpg" class="card-img-top" alt="Property 3">
+        <div class="card-body">
+          <h5 class="card-title">Modern City Loft</h5>
+          <p class="card-text">Stay in this stylish city loft with convenient access to attractions. Perfect for urban explorers.</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+          <button class="btn btn-danger float-right">Remove</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more columns with wishlist items -->
+  </div>
+</div>
+
+<!-- Bootstrap JavaScript and jQuery (at the end of the body for faster loading) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+

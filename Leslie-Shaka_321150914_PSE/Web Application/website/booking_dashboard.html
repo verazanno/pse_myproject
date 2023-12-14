@@ -1,0 +1,88 @@
+<!-- Booking Dashboard -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .booking-card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+
+    <!-- Navigation Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">HomeBnB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="wishlist.html">Wishlist</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="messaging.html">Messaging</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Booking Dashboard<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Bookings</h2>
+  
+  <!-- Improved UI for bookings -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card booking-card">
+        <div class="card-body">
+          <h5 class="card-title">Booking #1</h5>
+          <p class="card-text"><strong>Property Name:</strong> Distinction Garden</p>
+          <p class="card-text"><strong>Check-In:</strong> July 15, 2023</p>
+          <p class="card-text"><strong>Check-Out:</strong> July 20, 2023</p>
+          <p class="card-text"><strong>Status:</strong> Confirmed</p>
+          <!-- Add more booking details -->
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="card booking-card">
+        <div class="card-body">
+          <h5 class="card-title">Booking #2</h5>
+          <p class="card-text"><strong>Property Name:</strong> Villa Mountain</p>
+          <p class="card-text"><strong>Check-In:</strong> August 10, 2023</p>
+          <p class="card-text"><strong>Check-Out:</strong> August 15, 2023</p>
+          <p class="card-text"><strong>Status:</strong> Pending</p>
+          <!-- Add more booking details -->
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add more columns with booking cards -->
+  </div>
+</div>
+
+<!-- Bootstrap JavaScript and jQuery (at the end of the body for faster loading) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
